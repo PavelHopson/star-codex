@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "profiles": {
+    "local-code": {
+      "model": "star-ai:latest",
+      "baseUrl": "http://127.0.0.1:11434/v1",
+      "vision": false,
+      "limits": {
+        "concurrency": 1,
+        "maxRequests": 20,
+        "timeoutMs": 90000,
+        "maxInputBytes": 2097152,
+        "maxResponseBytes": 8388608,
+        "maxOutputTokens": 4096
+      }
+    }
+  }
+}

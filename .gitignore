@@ -1,0 +1,10 @@
+/.runtime/
+/STATUS.md
+/.codex/
+/coverage/
+/node_modules/
+*.log
+.env*
+auth.json
+*.pem
+*.key
